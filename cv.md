@@ -1,4 +1,4 @@
-# CV Vitaly Kryanin
+#Vitaly Kryanin
 ========================
 * *Telegram:* https://t.me/RJKvCyMbXo
 * *Purpose:* My ambition is to be a frontend developer.
