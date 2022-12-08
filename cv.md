@@ -18,7 +18,7 @@ While working with Python, a friend asked me to create a website for him, I agre
 * MobaXtern
 * VS Code, WebStorm, PyCharm,
 * Postman, DevTools, Figma.
-
+------------------------------
 ### Code example:
 All my works are posted in my repository, the code is often very voluminous:
 * https://github.com/VKryanin?tab=repositories
@@ -43,10 +43,10 @@ All my works are posted in my repository, the code is often very voluminous:
 >    else:
 >        print('Comp wins')
 >    game_status = input('Do you want priceed? [Yes/No]').lower() == 'yes'
- 
+ ---------------------------------
  ### Courses:
  RS School & Yandex-Practicum
- 
+ ---------------------------------
  ### Languages
 * *English:* B1
 
