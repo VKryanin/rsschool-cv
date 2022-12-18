@@ -1,0 +1,12 @@
+.aside {
+    grid-area: aside;
+    max-width: 300px;
+    margin-top: 20px;
+    padding: 25px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: #2a2c2f;
+    border-radius: 5px;
+}

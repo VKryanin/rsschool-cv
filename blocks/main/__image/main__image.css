@@ -1,0 +1,158 @@
+.main__image {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.html {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: html;
+    animation-timing-function: linear;
+}
+
+.css {
+    align-self: center;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: css;
+    animation-timing-function: linear;
+}
+
+.js {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: js;
+    animation-timing-function: linear;
+}
+
+.react {
+    align-self: center;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    animation-name: react;
+    animation-timing-function: linear;
+}
+
+.figma {
+    align-self: center;
+    animation-name: figma;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.vscode {
+    align-self: center;
+    animation-name: vscode;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.python {
+    align-self: center;
+    animation-name: python;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes html {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(25px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes css {
+    0% {
+        transform: translateX(0);
+    }
+    
+    50% {
+        transform: translateX(25px);
+    }
+    
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes js {
+    0% {
+        transform: translateY(25px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(25px);
+    }
+}
+
+@keyframes react {
+    0% {
+        transform: translateX(25px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(25px);
+    }
+}
+
+@keyframes figma {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }    
+}
+
+@keyframes vscode {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(.5);
+    }
+    50% {
+        transform:scale(1) ;
+    }
+    75% {
+        transform: scale(.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes python {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
