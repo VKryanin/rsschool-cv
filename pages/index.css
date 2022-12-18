@@ -1,0 +1,44 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/Inter/inter.css);
+
+@import url(../blocks/root/root.css);
+/* header  */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__item/header__item.css);
+
+/* aside  */
+@import url(../blocks/aside/aside.css);
+@import url(../blocks/aside/__image/aside__image.css);
+@import url(../blocks/aside/__education/aside__education.css);
+@import url(../blocks/aside/__title/aside__title.css);
+@import url(../blocks/aside/__items/aside__items.css);
+@import url(../blocks/aside/__contacts/aside__contacts.css);
+@import url(../blocks/aside/__item/aside__item.css);
+@import url(../blocks/aside/__contact/aside__contact.css);
+@import url(../blocks/aside/__item-contact/aside__item-contact.css);
+
+/* main  */
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__about/main__about.css);
+@import url(../blocks/main/__about-name/main__about-name.css);
+@import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/__subtitle/main__subtitle.css);
+@import url(../blocks/main/__about-text/main__about-text.css);
+@import url(../blocks/main/__title-about/main__title-about.css);
+@import url(../blocks/main/__text/main__text.css);
+@import url(../blocks/main/__soft-skills/main__soft-skills.css);
+@import url(../blocks/main/__image/main__image.css);
+@import url(../blocks/main/__items/main__items.css);
+@import url(../blocks/main/__list/main__list.css);
+@import url(../blocks/main/__item/main__item.css);
+@import url(../blocks/main/__preview/main__preview.css);
+@import url(../blocks/main/__link/main__link.css);
+
+/* footer  */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+
+

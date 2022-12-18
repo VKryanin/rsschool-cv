@@ -1,0 +1,7 @@
+.aside__items {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
