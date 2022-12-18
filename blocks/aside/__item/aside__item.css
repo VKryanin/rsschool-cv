@@ -1,0 +1,7 @@
+.aside__item {
+    padding-top: 15px;
+}
+
+.aside__item:first-child {
+    padding-top: 0;
+}

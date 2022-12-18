@@ -1,0 +1,7 @@
+.aside__item-contact {
+    transition: opacity 1s ease-in-out;
+}
+
+.aside__item-contact:hover {
+    opacity: .6;
+}
