@@ -1,7 +1,6 @@
 .aside {
     grid-area: aside;
-    max-width: 300px;
-    margin-top: 20px;
+    max-width: 350px;
     padding: 25px;
     text-align: start;
     display: flex;
