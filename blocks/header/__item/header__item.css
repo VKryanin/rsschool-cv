@@ -1,3 +1,9 @@
 .header__item {
-    align-self:center;
+    color: #2a2c2f;
+    text-decoration: none;
+    transition: opacity 1s ease-in-out;
+}
+
+.header__item:hover {
+    opacity: .6;
 }

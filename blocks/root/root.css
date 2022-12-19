@@ -13,5 +13,6 @@
     grid-template-areas:
         'header header'
         'aside main'
-        'footer footer'
+        'footer footer';
+    gap: 15px;
 }

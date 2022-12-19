@@ -11,7 +11,22 @@
 
 <body class="root">
     <header class="header">
-        
+        <nav class="header__nav">
+            <ul class="header__items">
+                <li>
+                    <a class="header__item" href="#About">About me</a>
+                </li>
+                <li>
+                    <a class="header__item" href="#Softskills">Soft skills</a>
+                </li>
+                <li>
+                    <a class="header__item" href="#CodeExample">Code Example</a>
+                </li>
+                <li>
+                    <a class="header__item" href="#Projects">Projects</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <aside class="aside">
         <img class="aside__image" src="./images/avatar.jpg" alt="My photo">
@@ -48,7 +63,7 @@
         </section>
     </aside>
     <main class="main">
-        <section class="main__about">
+        <section id="About" class="main__about">
             <div class="main__about-name">
                 <h1 class="main__title">Vitaly Krianin</h1>
                 <p class="main__subtitle">Front-end developer</p>
@@ -63,7 +78,7 @@
                     friends playing board games or computer games.</p>
             </div>
         </section>
-        <section class="main__soft-skills">
+        <section id="Softskills" class="main__soft-skills">
             <h2 class="main__title-about">Soft skills</h2>
             <div class="main__items">
                 <img class="main__image html" src="./images/html.png" alt="html">
@@ -75,7 +90,100 @@
                 <img class="main__image python" src="./images/python.png" alt="python">
             </div>
         </section>
-        <section class="main__projects">
+        <section id="CodeExample" class="main__code">
+            <h2 class="main__title-about">Code Example</h2>
+            <code class="main__code-example">
+                <pre class="main__string">var $start = document.querySelector('#start')</pre> 
+                <pre class="main__string">var $game = document.querySelector('#game')</pre>  
+                <pre class="main__string">var $time = document.querySelector('#time')</pre>
+                <pre class="main__string">var $result = document.querySelector('#result')</pre>
+                <pre class="main__string">var $timeHeader = document.querySelector('#time-header')</pre>
+                <pre class="main__string">var $resultHeader = document.querySelector('#result-header')</pre>  
+                <pre class="main__string">var $gameTime = document.querySelector('#game-time')</pre>
+                <pre class="main__string">var colors = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow ", 'Gold', 'Grey', 'Purple', 'Pink']</pre>
+                <pre class="main__string">function show($el) {
+    $el.classList.remove('hide')
+                }</pre>
+                <pre class="main__string">function hide($el) {
+    $el.classList.add('hide')
+                }</pre>
+                <pre class="main__string">var score = 0</pre>
+                <pre class="main__string">var isGameStarted = false</pre>
+                <pre class="main__string">$start.addEventListener('click', startGame)</pre>
+                <pre class="main__string">$game.addEventListener('click', handleBoxCLick)</pre>
+                <pre class="main__string">$gameTime.addEventListener('input', SetGameTime)</pre>
+                <pre class="main__string">function startGame() {
+    score = 0
+    SetGameTime()
+    $gameTime.setAttribute('disabled', 'true')
+    hide($start)
+    isGameStarted = true
+    $game.style.backgroundColor = '#fff'
+    var interval = setInterval(function () {
+        var time = parseFloat($time.textContent)
+        if (time <= 0) {
+            clearInterval(interval)
+            endGame()
+        } else {
+            $time.textContent = (time - 0.1).toFixed(1)
+        }
+    }, 100)
+    renderBox()
+}</pre>
+<pre class="main__string">function setGameScore() {
+    $result.textContent = score.toString()
+}</pre>
+<pre class="main__string">function SetGameTime() {
+    var time = +$gameTime.value
+    $time.textContent = time.toFixed(1)
+    show($timeHeader)
+    hide($resultHeader)
+}</pre>
+<pre class="main__string">function endGame() {
+    isGameStarted = false
+    setGameScore()
+    $gameTime.removeAttribute('disabled')
+    show($start)
+    $game.innerHTML = ''
+    $game.style.backgroundColor = '#ccc'
+    hide($timeHeader)
+    show($resultHeader)
+}</pre>
+<pre class="main__string">function handleBoxCLick(event) {
+    if (!isGameStarted) {
+        return
+    }
+    if (event.target.dataset.box) {
+        score++
+        renderBox()
+    }
+}</pre>
+<pre class="main__string">function renderBox() {
+    $game.innerHTML = ''
+    var box = document.createElement('div')
+    var boxSize = getRandom(30, 100)
+    var GameSize = $game.getBoundingClientRect()
+    var maxTop = GameSize.height - boxSize
+    var maxLeft = GameSize.width - boxSize
+    var randomColors = getRandom(0, colors.length)
+    box.style.borderRadius = '50%'
+    box.style.height = box.style.width = boxSize + 'px'
+    box.style.position = 'absolute'
+    box.style.backgroundColor = colors[randomColors]
+    box.style.top = getRandom(0, maxTop) + 'px'
+    box.style.left = getRandom(0, maxLeft) + 'px'
+    box.style.cursor = 'pointer'
+    box.setAttribute('data-box', 'true')
+    // box.addEventListener("click", handleBoxCLick)
+    $game.insertAdjacentElement('afterbegin', box)
+}</pre>
+<pre class="main__string">function getRandom(min, max) {
+    return Math.floor(Math.random() * (max - min) + min)
+}</pre>
+                </code>
+
+        </section>
+        <section id="Projects" class="main__projects">
             <h2 class="main__title-about">Projects</h2>
             <div class="main__list">
                 <a class="main__item" href="https://vkryanin.github.io/russian-travel/" target="_blank">
