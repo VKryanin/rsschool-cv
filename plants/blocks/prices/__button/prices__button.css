@@ -1,0 +1,14 @@
+.prices__button {
+    width: 162px;
+    height: 50px;
+    margin-top: 38px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background: none;
+    color: #E06733;
+    font-family: 'Inika', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    cursor: pointer;
+}

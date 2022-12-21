@@ -1,0 +1,9 @@
+.service__grid {
+    max-width: 1222px;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(329px,1fr));
+    gap: 55px 116px;
+    list-style: none;
+}

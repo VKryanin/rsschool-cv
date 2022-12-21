@@ -1,0 +1,27 @@
+.prices__item {
+    box-sizing: border-box;
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    cursor: pointer;
+    transition: stroke 1s ease-in-out;
+}
+
+.prices__item:hover svg path {
+    stroke: #EDF2EC;
+}
+
+.prices__item:hover .prices__arrow {
+    rotate: 180deg;
+    background: #AEA1A1;
+    ;
+}
+
+.prices__item:hover {
+    background: #D6E7D2;
+}

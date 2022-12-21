@@ -1,0 +1,10 @@
+.service__content {
+    max-width: 1007px;
+    width: 1007px;
+    margin-left: 109px;
+    opacity: 0.4;
+    display: flex;
+    align-self: start;
+    justify-content: space-between;
+    align-items: center;
+}

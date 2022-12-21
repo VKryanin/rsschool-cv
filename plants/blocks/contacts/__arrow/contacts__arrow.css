@@ -1,0 +1,10 @@
+.contacts__arrow {
+    width: 16px;
+    height: 16px;
+    background: #AEA1A1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: rotate 1s ease-in-out;
+}

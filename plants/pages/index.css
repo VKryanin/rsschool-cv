@@ -1,27 +1,76 @@
 /* base  */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/Inter/inter.css);
+@import url(../vendor/fonts/Inika/inika.css);
 
 /* root  */
 @import url(../blocks/root/root.css);
 
 /* header  */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__items/header__items.css);
+@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__link/header__link.css);
 
 /* welcome  */
 @import url(../blocks/welcome/welcome.css);
+@import url(../blocks/welcome/__container/welcome__container.css);
+@import url(../blocks/welcome/__image/welcome__image.css);
+@import url(../blocks/welcome/__wrapper/welcome__wrapper.css);
+@import url(../blocks/welcome/__title/welcome__title.css);
+@import url(../blocks/welcome/__title/welcome__title-green.css);
+@import url(../blocks/welcome/__subtitle/welcome__subtitle.css);
+@import url(../blocks/welcome/__button/welcome__button.css);
 
 /* about  */
 @import url(../blocks/about/about.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__wrapper/about__wrapper.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__title/about__title-green.css);
+@import url(../blocks/about/__subtitle/about__subtitle.css);
 
 /* service  */
 @import url(../blocks/service/service.css);
+@import url(../blocks/service/__content/service__content.css);
+@import url(../blocks/service/__title/service__title.css);
+@import url(../blocks/service/__filter/service__filter.css);
+@import url(../blocks/service/__button/service__button.css);
+@import url(../blocks/service/__grid/service__grid.css);
+@import url(../blocks/service/__card/service__card.css);
+@import url(../blocks/service/__image/service__image.css);
+@import url(../blocks/service/__heading/card__heading.css);
+@import url(../blocks/service/__text/card__text.css);
 
 /* prices  */
 @import url(../blocks/prices/prices.css);
+@import url(../blocks/prices/__wrapper/prices__wrapper.css);
+@import url(../blocks/prices/__title/prices__title.css);
+@import url(../blocks/prices/__items/prices__items.css);
+@import url(../blocks/prices/__item/prices__item.css);
+@import url(../blocks/prices/__text/prices__text.css);
+@import url(../blocks/prices/__arrow/prices__arrow.css);
+@import url(../blocks/prices/__contact/prices__contact.css);
+@import url(../blocks/prices/__heading/prices__heading.css);
+@import url(../blocks/prices/__button/prices__button.css);
+@import url(../blocks/prices/__image/prices__image.css);
 
 /* contacts */
 @import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__list/contacts__list.css);
+@import url(../blocks/contacts/__arrow/contacts__arrow.css);
+@import url(../blocks/contacts/__text/contacts__text.css);
+@import url(../blocks/contacts/__cities/contacts__cities.css);
+@import url(../blocks/contacts/__city/contacts__city.css);
+@import url(../blocks/contacts/__item/contact__item.css);
 
 /* footer  */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);

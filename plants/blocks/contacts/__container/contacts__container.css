@@ -1,0 +1,7 @@
+.contacts__container {
+    max-width: 1222px;
+    margin: 0 auto;
+    padding-top: 53px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,14 @@
+.welcome__button {
+    width: 158px;
+    height: 44px;
+    margin-top: 48px;
+    align-self: flex-start;
+    text-transform: uppercase;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    background: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
