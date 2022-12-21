@@ -17,7 +17,7 @@
                     <a class="header__item" href="#About">About me</a>
                 </li>
                 <li>
-                    <a class="header__item" href="#Softskills">Soft skills</a>
+                    <a class="header__item" href="#Hardskills">Soft skills</a>
                 </li>
                 <li>
                     <a class="header__item" href="#CodeExample">Code Example</a>
@@ -85,8 +85,8 @@
                     friends playing board games or computer games.</p>
             </div>
         </section>
-        <section id="Softskills" class="main__soft-skills">
-            <h2 class="main__title-about">Soft skills</h2>
+        <section id="Hardskills" class="main__hard-skills">
+            <h2 class="main__title-about">Hard skills</h2>
             <div class="main__items">
                 <img class="main__image html" src="./images/html.png" alt="html">
                 <img class="main__image css" src="./images/css.png" alt="css">
@@ -99,7 +99,7 @@
         </section>
         <section id="CodeExample" class="main__code">
             <h2 class="main__title-about">Code Example</h2>
-            <code class="main__code-example">
+            <div class="main__code-example">
                 <pre class="main__string">var $start = document.querySelector('#start')</pre> 
                 <pre class="main__string">var $game = document.querySelector('#game')</pre>  
                 <pre class="main__string">var $time = document.querySelector('#time')</pre>
@@ -128,7 +128,7 @@
     $game.style.backgroundColor = '#fff'
     var interval = setInterval(function () {
         var time = parseFloat($time.textContent)
-        if (time <= 0) {
+        if (time &lt;= 0) {
             clearInterval(interval)
             endGame()
         } else {
@@ -187,7 +187,7 @@
 <pre class="main__string">function getRandom(min, max) {
     return Math.floor(Math.random() * (max - min) + min)
 }</pre>
-                </code>
+</div>
 
         </section>
         <section id="Projects" class="main__projects">
@@ -198,7 +198,7 @@
                     <p class="main__link">Russian travel</p>
                 </a>
                 <a class="main__item" href="https://vkryanin.github.io/mesto/" target="_blank">
-                    <img class="main__preview" class="main__item" src="./images/mesto.png" alt="mesto">
+                    <img class="main__preview" src="./images/mesto.png" alt="mesto">
                     <p class="main__link">Mesto</p>
                 </a>
             </div>
