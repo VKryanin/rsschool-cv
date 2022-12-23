@@ -1,10 +1,14 @@
 .service__card {
-    width: 330px;
-    height: 450px;
     border: 1px solid #E3E1D5;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media screen and (max-width:768px) {
+    .elements__element {
+        align-self: center;
+    }
 }

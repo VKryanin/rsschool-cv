@@ -5,3 +5,11 @@
     flex-direction: column;
     align-items: flex-end;
 }
+
+@media screen and (max-width:768px) {
+    .service {
+        max-width: 668px;
+        margin: 0 auto;
+        padding: 60px 0px;
+    }
+}

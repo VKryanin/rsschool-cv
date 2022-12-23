@@ -6,3 +6,11 @@
     line-height: 50px;
     text-align: right;
 }
+
+@media screen and (max-width:768px) {
+    .prices__heading {
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 99px;
+    }
+}

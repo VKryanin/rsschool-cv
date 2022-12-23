@@ -2,6 +2,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/Inter/inter.css);
 @import url(../vendor/fonts/Inika/inika.css);
+@import url(../blocks/hidden/hidden.css);
 
 /* root  */
 @import url(../blocks/root/root.css);
@@ -35,6 +36,7 @@
 
 /* service  */
 @import url(../blocks/service/service.css);
+@import url(../blocks/service/__container/service__container.css);
 @import url(../blocks/service/__content/service__content.css);
 @import url(../blocks/service/__title/service__title.css);
 @import url(../blocks/service/__filter/service__filter.css);
@@ -68,9 +70,12 @@
 @import url(../blocks/contacts/__cities/contacts__cities.css);
 @import url(../blocks/contacts/__city/contacts__city.css);
 @import url(../blocks/contacts/__item/contact__item.css);
+@import url(../blocks/contacts/__image/contacts__image.css);
 
 /* footer  */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__github/footer__github.css);
+@import url(../blocks/footer/__rs/footer__rs.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);

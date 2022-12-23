@@ -1,10 +1,13 @@
 .header__nav {
-    max-width: 1220px;
-    padding: 42px 0;
+    width: 84%;
+    padding: 42px 0 62px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .header__nav {
+        padding: 35px 0;
+    }
 }

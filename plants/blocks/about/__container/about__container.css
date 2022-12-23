@@ -1,12 +1,16 @@
 .about__container {
-    max-width: 1222px;
+    /* max-width: 1222px; */
+    width: 84%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width:768px) {
     .about__container {
+        max-width: 668px;
         flex-direction: column;
+        align-items: center;
     }
 }

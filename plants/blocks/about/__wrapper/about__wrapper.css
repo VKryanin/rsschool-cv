@@ -1,8 +1,13 @@
 .about__wrapper {
-    max-width: 605px;
     width: 605px;
     align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+@media screen and (max-width:768px) {
+    .about__wrapper {
+        width: 668px;
+    }
 }

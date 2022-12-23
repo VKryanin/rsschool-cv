@@ -1,7 +1,18 @@
 .contacts__container {
-    max-width: 1222px;
+    /* max-width: 1222px; */
+    width: 84%;
     margin: 0 auto;
     padding-top: 53px;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width:1230px) {
+    .contacts__container {
+        height: 739px;
+        padding-top: 40px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

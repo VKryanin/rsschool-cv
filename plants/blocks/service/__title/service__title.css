@@ -7,3 +7,10 @@
     color: #499A18;
     font-family: 'Inika', serif;
 }
+
+@media screen and (max-width:768px) {
+    .service__title {
+        font-size: 35px;
+        line-height: 46px;
+    }
+}
