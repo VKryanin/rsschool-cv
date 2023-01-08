@@ -11,3 +11,9 @@
         margin-right: 42px;
     }
 }
+
+@media screen and (max-width:767px) {
+    .welcome__wrapper {
+        margin-right: 0;
+    }
+}

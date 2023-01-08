@@ -11,3 +11,9 @@
         width: 668px;
     }
 }
+
+@media screen and (max-width:767px) {
+    .about__wrapper {
+        max-width: 330px;
+    }
+}

@@ -14,3 +14,9 @@
         width: 668px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .service__container {
+        width: 280px;
+    }
+}

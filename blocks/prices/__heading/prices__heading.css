@@ -14,3 +14,15 @@
         padding-top: 99px;
     }
 }
+
+@media screen and (max-width:767px) {
+    .prices__heading {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        padding-top: 19px;
+        max-width: 230px;
+        margin: 0 auto;
+    }
+}

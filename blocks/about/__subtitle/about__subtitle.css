@@ -13,3 +13,13 @@
         width: 668px;
     }
 }
+
+@media screen and (max-width:767px) {
+    .about__subtitle {
+        max-width: 330px;
+        margin: 21px auto 0;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

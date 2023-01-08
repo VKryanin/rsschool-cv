@@ -6,3 +6,14 @@
     line-height: 52px;
     color: #499A18;
 }
+
+@media screen and (max-width:767px) {
+    .contacts__title {
+        width: 192px;
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+    }
+}

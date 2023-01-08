@@ -9,3 +9,15 @@
     align-items: center;
     justify-content: space-around;
 }
+
+@media screen and (max-width:767px) {
+    .prices__items {
+        width: 224px;
+        margin: 40px auto 0;
+        justify-content: none;
+    }
+}
+
+.prices__items-noBorder {
+    border: none;
+}

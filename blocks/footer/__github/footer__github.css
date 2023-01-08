@@ -5,4 +5,9 @@
     line-height: 24px;
     color: #000000;
     text-decoration: none;
+    transition: opacity .5s ease-in-out;
+}
+
+.footer__github:hover {
+    opacity: .6;
 }

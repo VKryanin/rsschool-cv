@@ -12,3 +12,13 @@
         line-height: 42px;
     }
 }
+
+@media screen and (max-width:767px) {
+    .prices__title {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        width: 90px;
+        margin: 0 auto;
+    }
+}

@@ -2,3 +2,9 @@
     width: 152px;
     margin-top: 39px;
 }
+
+@media screen and (max-width: 767px) {
+    .prices__image {
+        display: none;
+    }
+}
