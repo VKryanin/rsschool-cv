@@ -1,0 +1,12 @@
+.footer__rs {
+    margin: 0;
+}
+
+@media screen and (max-width:768px) {
+    .footer__rs {
+        margin: 16px 0 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}

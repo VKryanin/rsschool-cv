@@ -1,0 +1,28 @@
+.prices__heading {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+}
+
+@media screen and (max-width:768px) {
+    .prices__heading {
+        font-size: 25px;
+        line-height: 35px;
+        padding-top: 99px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .prices__heading {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        padding-top: 19px;
+        max-width: 230px;
+        margin: 0 auto;
+    }
+}
