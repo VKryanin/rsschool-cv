@@ -1,0 +1,10 @@
+.about__image {
+    width: 37%;
+}
+
+@media screen and (max-width:768px) {
+    .about__image {
+        /* max-width: 250px; */
+        margin-top: 40px;
+    }
+}

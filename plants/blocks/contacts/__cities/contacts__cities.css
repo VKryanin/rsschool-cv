@@ -1,0 +1,12 @@
+.contacts__cities {
+    margin: 0;
+    padding: 0 35px;
+    list-style: none;
+    background: #DCE9D9;
+    max-width: 450px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}

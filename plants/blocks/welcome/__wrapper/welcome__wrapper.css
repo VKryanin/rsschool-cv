@@ -1,0 +1,13 @@
+.welcome__wrapper {
+    max-width: 549px;
+    max-height: 340px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:768px) {
+    .welcome__wrapper {
+        margin-right: 42px;
+    }
+}
