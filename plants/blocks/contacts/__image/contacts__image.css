@@ -3,5 +3,12 @@
         width: 200px;
         order: 3;
         object-position: bottom;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .contacts__image {
+        width: 100px;
     }
 }

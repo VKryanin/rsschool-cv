@@ -1,5 +1,4 @@
 .contacts__container {
-    /* max-width: 1222px; */
     width: 84%;
     margin: 0 auto;
     padding-top: 53px;
@@ -14,5 +13,12 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .contacts__container {
+        height: 445px;
+        padding-top: 25px;
     }
 }

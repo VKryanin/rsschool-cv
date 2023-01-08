@@ -19,9 +19,22 @@
 .prices__item:hover .prices__arrow {
     rotate: 180deg;
     background: #AEA1A1;
-    ;
 }
 
 .prices__item:hover {
     background: #D6E7D2;
+}
+
+@media screen and (max-width:767px) {
+    .prices__item {
+        width: 180px;
+        margin-top: 13px;
+        padding: 0 30px;
+    }
+    .prices__item:first-of-type {
+        margin: 29px auto 0;
+    }
+    .prices__item:last-of-type {
+        margin-bottom: 29px;
+    }
 }

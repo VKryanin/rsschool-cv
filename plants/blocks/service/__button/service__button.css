@@ -10,10 +10,21 @@
     font-weight: 400;
     color: #E06733;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .service__button {
         margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .service__button {
+        margin: 35px 0 0;
+        width: 121px;
+    }
+    .service__button:last-of-type {
+        margin-top: 9px;
     }
 }

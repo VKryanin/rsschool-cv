@@ -3,3 +3,11 @@
     justify-content: space-between;
     width: 559px;
 }
+
+@media screen and (max-width: 767px) {
+    .service__filter {
+        flex-wrap: wrap;
+        width: 252px;
+        margin: 0;
+    }
+}

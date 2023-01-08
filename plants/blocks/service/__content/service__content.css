@@ -11,6 +11,16 @@
     .service__content {
         flex-direction: column;
         align-items: flex-start;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .service__content {
+        opacity: 1;
+        width: 252px;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 

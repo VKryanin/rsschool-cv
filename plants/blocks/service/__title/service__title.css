@@ -14,3 +14,14 @@
         line-height: 46px;
     }
 }
+
+@media screen and (max-width:768px) {
+    .service__title {
+        width: 187px;
+        margin: 0;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+        color: #499A18;
+    }
+}
