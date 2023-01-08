@@ -33,3 +33,17 @@
         width: 300px;
     }
 }
+
+.contacts__list-active {
+    background: #C1E698;
+} 
+
+.contacts__list-active .contacts__arrow {
+    rotate: 180deg;
+    background: #AEA1A1;
+}
+
+.contacts__list-active:hover .contacts__arrow {
+    background: #AEA1A1;;
+    rotate: 0deg;
+} 

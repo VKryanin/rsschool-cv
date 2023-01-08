@@ -5,6 +5,8 @@ const standart = document.querySelector('#standart')
 const proCare = document.querySelector('#proCare')
 const template = document.querySelector('#template').content;
 const templatePrice = template.querySelector('.template__price')
+const contactsList = document.querySelector('.contacts__list')
+const contactsCities = document.querySelector('.contacts__cities')
 
 const prices = [
     {
@@ -27,12 +29,9 @@ const prices = [
     }
 ]
 
-
 standart.addEventListener('click', () => addPrice(openPrices(prices[0].rate,prices[0].span, prices[0].subtitle, prices[0].coast)))
 basics.addEventListener('click', () => addPrice(openPrices(prices[1].rate,prices[1].span, prices[1].subtitle, prices[1].coast)))
 proCare.addEventListener('click', () => addPrice(openPrices(prices[2].rate,prices[1].span, prices[2].subtitle, prices[2].coast)))
-
-
 
 function openPrices(rate,span, subtitle, coast) {
     let newCard = template.cloneNode(true);
@@ -69,5 +68,5 @@ function displayAll() {
     proCare.classList.remove('prices__item-hide')
     pricesItems.children[3].remove()
 }
-
-// templateOrder.addEventListener('click', () => templatePrice.remove())
+// contacts__cities-active
+contactsList.addEventListener('click', () => (contactsCities.classList.toggle('contacts__cities-active'), contactsList.classList.toggle('contacts__list-active')))

@@ -9,4 +9,13 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    visibility: hidden;
+}
+
+.contacts__cities-active {
+    visibility: visible;
+}
+
+.contacts__cities-active .contacts__arrow {
+    rotate: 180deg;
 }
