@@ -17,3 +17,7 @@
         justify-content: none;
     }
 }
+
+.prices__items-noBorder {
+    border: none;
+}

@@ -14,6 +14,34 @@ const Yonkers = document.querySelector('#Yonkers');
 const Sherrill = document.querySelector('#Sherrill');
 const contactsText = document.querySelector('.contacts__text');
 const contactsImage = document.querySelector('.contacts__image');
+const serviceButtonGardens = document.querySelector('.service__button-gardens')
+const serviceButtonLawn = document.querySelector('.service__button-lawn')
+const serviceButtonPlanting = document.querySelector('.service__button-planting')
+const serviceCardOrange = document.querySelector('.service__card-orange')
+const garden = document.querySelectorAll('#garden')
+const planting = document.querySelectorAll('#planting')
+const lawn = document.querySelectorAll('#lawn')
+
+serviceButtonGardens.addEventListener('click', () => {
+    for (let i = 0; i < garden.length; i++) {
+        garden[i].classList.toggle('blure')
+    }
+    serviceButtonGardens.classList.toggle('service__card-orange')
+})
+
+serviceButtonLawn.addEventListener('click', () => {
+    for (let i = 0; i < planting.length; i++) {
+        planting[i].classList.toggle('blure')
+    }
+    serviceButtonLawn.classList.toggle('service__card-orange')
+})
+
+serviceButtonPlanting.addEventListener('click', () => {
+    for (let i = 0; i < lawn.length; i++) {
+        lawn[i].classList.toggle('blure')
+    }
+    serviceButtonPlanting.classList.toggle('service__card-orange')
+})
 
 const prices = [
     {
@@ -37,10 +65,10 @@ const prices = [
 ]
 
 const address = [
-    {city: 'Canandaigua, NY', phone: '+1 585 393 0001', office: '151 Charlotte Street'},
-    {city: 'New York City', phone: '+1 212 456 0002', office: '9 East 91st Street'},
-    {city: 'Yonkers, NY', phone: '+1 914 678 0003', office: '511 Warburton Ave' },
-    {city: 'Sherrill, NY', phone: '+1 315 908 0004', office: '14 WEST Noyes BLVD'}
+    { city: 'Canandaigua, NY', phone: '+1 585 393 0001', office: '151 Charlotte Street' },
+    { city: 'New York City', phone: '+1 212 456 0002', office: '9 East 91st Street' },
+    { city: 'Yonkers, NY', phone: '+1 914 678 0003', office: '511 Warburton Ave' },
+    { city: 'Sherrill, NY', phone: '+1 315 908 0004', office: '14 WEST Noyes BLVD' }
 ]
 
 standart.addEventListener('click', () => addPrice(openPrices(prices[0].rate, prices[0].span, prices[0].subtitle, prices[0].coast)))
@@ -69,6 +97,8 @@ function hideOther(basics, standart, proCare) {
     basics.classList.add('prices__item-hide');
     standart.classList.add('prices__item-hide');
     proCare.classList.add('prices__item-hide');
+    pricesItems.classList.toggle('prices__items-noBorder')
+    // prices__items-noBorder
 }
 
 function makeOrader(price) {
@@ -102,7 +132,7 @@ function addAdressFieled(object) {
 function addCard(card) {
     contacts.append(card);
     const templateContact = contacts.querySelector('#contactUs')
-    contactsList.addEventListener('click',()=> templateContact.remove(), contactsImage.classList.toggle('hidden'))
+    contactsList.addEventListener('click', () => templateContact.remove(), contactsImage.classList.toggle('hidden'))
 }
 
 Canandaigua.addEventListener('click', () => addCard(addAdressFieled(address[0])));

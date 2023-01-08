@@ -12,3 +12,9 @@
         align-self: center;
     }
 }
+
+.blure {
+    filter: blur(2px);
+}
+
+

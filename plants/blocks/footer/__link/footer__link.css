@@ -1,7 +1,12 @@
 .footer__link {
     margin-left: 20px;
+    transition: opacity .5s ease-in-out;
 }
 
 .footer__link:first-of-type{
     margin-left: 0px;
+}
+
+.footer__link:hover {
+    opacity: .6;
 }

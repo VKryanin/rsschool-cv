@@ -83,3 +83,11 @@
 /* template  */
 @import url(../blocks/template/__price/template__price.css);
 @import url(../blocks/template/__contact/template__contact.css);
+@import url(../blocks/template/__contact/__container/ul__container.css);
+@import url(../blocks/template/__contact/__title/ul__title.css);
+@import url(../blocks/template/__contact/__content/ul__content.css);
+@import url(../blocks/template/__contact/__heading/ul__heading.css);
+@import url(../blocks/template/__contact/__data/ul__data.css);
+@import url(../blocks/template/__contact/call/call.css);
+
+@import url(../blocks/__shadow/button__shadow.css);
