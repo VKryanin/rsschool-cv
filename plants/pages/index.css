@@ -2,7 +2,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/Inter/inter.css);
 @import url(../vendor/fonts/Inika/inika.css);
-@import url(../blocks/hidden/hidden.css);
 
 /* root  */
 @import url(../blocks/root/root.css);
@@ -83,3 +82,4 @@
 
 /* template  */
 @import url(../blocks/template/__price/template__price.css);
+@import url(../blocks/template/__contact/template__contact.css);

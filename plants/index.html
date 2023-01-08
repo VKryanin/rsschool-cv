@@ -162,7 +162,7 @@
         </section>
         <section class="contacts" id="contacts">
             <div class="contacts__container">
-                <img class="contacts__image" src="./images/contact_woman.svg" alt="">
+                <img class="contacts__image hidden" src="./images/contact_woman.svg" alt="">
                 <h2 class="contacts__title">Contact us</h2>
                 <div class="contact__lists">
                     <div class="contacts__list">
@@ -178,16 +178,16 @@
                     </div>
                     <ul class="contacts__cities">
                         <li class="contacts__city">
-                            <p class="contact__item">Canandaigua, NY</p>
+                            <p class="contact__item" id="Canandaigua">Canandaigua, NY</p>
                         </li>
                         <li class="contacts__city">
-                            <p class="contact__item">New York City</p>
+                            <p class="contact__item" id="NewYorkCity">New York City</p>
                         </li>
                         <li class="contacts__city">
-                            <p class="contact__item">Yonkers, NY</p>
+                            <p class="contact__item" id="Yonkers">Yonkers, NY</p>
                         </li>
                         <li class="contacts__city">
-                            <p class="contact__item">Sherrill, NY</p>
+                            <p class="contact__item" id="Sherrill">Sherrill, NY</p>
                         </li>
                     </ul>
                 </div>
@@ -224,6 +224,21 @@
                 <h3 class="template__coast"></h3>
             </div>
             <button type="submit" class="template__order">Order</button>
+        </div>
+        <div class="template__contact" id="contactUs">
+            <div class="ul__container">
+                <ul class="ul__title">
+                    <li class="ul__heading">City:</li>
+                    <li class="ul__heading">Phone:</li>
+                    <li class="ul__heading">Office adress:</li>
+                </ul>
+                <ul class="ul__content">
+                    <li class="ul__data" id="city"></li>
+                    <li class="ul__data" id="phone"></li>
+                    <li class="ul__data" id="office"></li>
+                </ul>
+            </div>
+            <button class="call">Call us</button>
         </div>
     </template>
     <script src="./scripts/index.js"></script>

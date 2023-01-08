@@ -10,12 +10,12 @@
     justify-content: space-around;
     align-items: flex-start;
     visibility: hidden;
+    
 }
 
 .contacts__cities-active {
+    position: relative;
     visibility: visible;
+    z-index: 3;
 }
 
-.contacts__cities-active .contacts__arrow {
-    rotate: 180deg;
-}
