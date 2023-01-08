@@ -12,6 +12,10 @@
     transition: stroke 1s ease-in-out;
 }
 
+.prices__item-hide {
+    display: none;
+}
+
 .prices__item:hover svg path {
     stroke: #EDF2EC;
 }

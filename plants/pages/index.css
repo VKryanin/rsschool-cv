@@ -80,3 +80,6 @@
 @import url(../blocks/footer/__rs/footer__rs.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
+
+/* template  */
+@import url(../blocks/template/__price/template__price.css);

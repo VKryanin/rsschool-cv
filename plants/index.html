@@ -114,7 +114,7 @@
                 <div class="prices__prices">
                     <h2 class="prices__title">Prices</h2>
                     <div class="prices__items">
-                        <div class="prices__item">
+                        <div class="prices__item" id="basics">
                             <p class="prices__text">Basics</p>
                             <div class="prices__arrow">
                                 <svg width="6" height="4" viewBox="0 0 6 4" fill="none"
@@ -126,7 +126,7 @@
                                 </svg>
                             </div>
                         </div>
-                        <div class="prices__item">
+                        <div class="prices__item" id="standart">
                             <p class="prices__text">Standard</p>
                             <div class="prices__arrow">
                                 <svg width="6" height="4" viewBox="0 0 6 4" fill="none"
@@ -138,7 +138,7 @@
                                 </svg>
                             </div>
                         </div>
-                        <div class="prices__item">
+                        <div class="prices__item" id="proCare">
                             <p class="prices__text">Pro care</p>
                             <div class="prices__arrow">
                                 <svg width="6" height="4" viewBox="0 0 6 4" fill="none"
@@ -206,6 +206,27 @@
             </ul>
         </div>
     </footer>
+    <template id="template">
+        <div class="template__price">
+            <div class="template__heading">
+                <p class="template__text"></p>
+                <div class="template__arrow">
+                    <svg width="6" height="4" viewBox="0 0 6 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.00003 3.00656L1.00003 1.00667" stroke="#fff" stroke-width="0.5"
+                            stroke-linecap="round" />
+                        <path d="M3 3.00635L5 1.00635" stroke="#fff" stroke-width="0.5" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <p class="template__subtitle"></p>
+            <div class="text__box">
+                <span class="template__span"></span>
+                <h3 class="template__coast"></h3>
+            </div>
+            <button type="submit" class="template__order">Order</button>
+        </div>
+    </template>
+    <script src="./scripts/index.js"></script>
 </body>
 
 </html>
