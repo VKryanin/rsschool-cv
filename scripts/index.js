@@ -18,9 +18,9 @@ const serviceButtonGardens = document.querySelector('.service__button-gardens')
 const serviceButtonLawn = document.querySelector('.service__button-lawn')
 const serviceButtonPlanting = document.querySelector('.service__button-planting')
 const serviceCardOrange = document.querySelector('.service__card-orange')
-const garden = document.querySelectorAll('#garden')
-const planting = document.querySelectorAll('#planting')
-const lawn = document.querySelectorAll('#lawn')
+const garden = document.querySelectorAll('.garden')
+const planting = document.querySelectorAll('.planting')
+const lawn = document.querySelectorAll('.lawn')
 
 serviceButtonGardens.addEventListener('click', () => {
     for (let i = 0; i < planting.length; i++) {
