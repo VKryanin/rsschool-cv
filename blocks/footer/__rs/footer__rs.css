@@ -1,5 +1,7 @@
 .footer__rs {
     margin: 0;
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width:768px) {

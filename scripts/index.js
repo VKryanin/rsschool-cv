@@ -23,13 +23,19 @@ const planting = document.querySelectorAll('#planting')
 const lawn = document.querySelectorAll('#lawn')
 
 serviceButtonGardens.addEventListener('click', () => {
-    for (let i = 0; i < garden.length; i++) {
-        garden[i].classList.toggle('blure')
+    for (let i = 0; i < planting.length; i++) {
+        planting[i].classList.toggle('blure')
+    }
+    for (let i = 0; i < lawn.length; i++) {
+        lawn[i].classList.toggle('blure')
     }
     serviceButtonGardens.classList.toggle('service__card-orange')
 })
 
 serviceButtonLawn.addEventListener('click', () => {
+    for (let i = 0; i < garden.length; i++) {
+        garden[i].classList.toggle('blure')
+    }
     for (let i = 0; i < planting.length; i++) {
         planting[i].classList.toggle('blure')
     }
@@ -39,6 +45,9 @@ serviceButtonLawn.addEventListener('click', () => {
 serviceButtonPlanting.addEventListener('click', () => {
     for (let i = 0; i < lawn.length; i++) {
         lawn[i].classList.toggle('blure')
+    }
+    for (let i = 0; i < garden.length; i++) {
+        garden[i].classList.toggle('blure')
     }
     serviceButtonPlanting.classList.toggle('service__card-orange')
 })
