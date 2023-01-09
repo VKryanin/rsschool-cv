@@ -113,12 +113,14 @@ function hideOther(basics, standart, proCare) {
 function makeOrader(price) {
     pricesItems.pop(price)
     displayAll(basics, standart, proCare)
+    
 }
 
 function displayAll() {
     basics.classList.remove('prices__item-hide'),
         standart.classList.remove('prices__item-hide'),
         proCare.classList.remove('prices__item-hide')
+        pricesItems.classList.toggle('prices__items-noBorder')
     pricesItems.children[3].remove()
 }
 
