@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-color:  #EDF2EC;
 }
 
 @media screen and (max-width:768px) {
