@@ -1,0 +1,29 @@
+.about__title {
+    margin: 0;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    font-family: 'Inika', serif;
+    color: #E06733;
+}
+
+@media screen and (max-width:768px) {
+    .about__title {
+        max-width: 423px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 35px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about__title {
+        width: 288px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+    }
+}

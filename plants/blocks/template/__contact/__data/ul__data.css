@@ -1,0 +1,10 @@
+@media screen and (max-width:767px) {
+    .ul__data {
+        margin-bottom: 8px;
+    }
+
+    .ul__data:last-of-type {
+        margin-bottom: 0px;
+
+    }
+}
