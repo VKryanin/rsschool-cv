@@ -1,0 +1,16 @@
+.header__burger {
+    display: none;
+    width: 40px;
+    object-fit: contain;
+    transition: opacity .5s ease-in-out visibility .3s ease-in-out;
+}
+
+.header__burger:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width:767px) {
+    .header__burger {
+        display: flex;
+    }
+}

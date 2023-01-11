@@ -1,0 +1,16 @@
+.about__image {
+    width: 37%;
+}
+
+@media screen and (max-width:768px) {
+    .about__image {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .about__image {
+        margin: 0 auto;
+        width: 150px;
+    }
+}

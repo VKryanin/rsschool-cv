@@ -1,0 +1,25 @@
+.about__subtitle {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+@media screen and (max-width:768px) {
+    .about__subtitle {
+        margin-top: 40px;
+        width: 668px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .about__subtitle {
+        max-width: 330px;
+        margin: 21px auto 0;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

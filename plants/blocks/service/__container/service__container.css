@@ -1,0 +1,22 @@
+.service__container {
+    width: 1222px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .service__container {
+        width: 84%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .service__container {
+        width: 668px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .service__container {
+        width: 280px;
+    }
+}
