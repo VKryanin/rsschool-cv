@@ -1,0 +1,14 @@
+.contacts__city {
+    width: 100%;
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #499A18;
+    border-bottom: 1px solid #D9D9D9;
+    cursor: pointer;
+}
+
+.contacts__city :hover {
+    color: #717171;
+    border-bottom: 1px solid #717171;
+}

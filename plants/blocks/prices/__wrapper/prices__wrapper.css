@@ -1,0 +1,16 @@
+.prices__wrapper {
+    /* max-width: 1222px; */
+    width: 84%;
+    margin: 0 auto;
+    padding: 40px 0 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:767px) {
+    .prices__wrapper {
+        width: 100%;
+        padding: 25px 0 40px;
+        flex-direction: column;
+    }
+}
